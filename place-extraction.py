@@ -2,11 +2,11 @@ import csv
 import time
 
 #import tab-delimited keywords file
-f = open('cities_key.txt','r')
+f = open('gazetteers/us-places-clean.txt','r')
 #gazetteer = f.read().lower().split("\r")
-citylist = f.read().split("\n")
+citylist = f.read().strip().split("\r")
 f.close()
-#print(citylist)
+print(citylist[0:5])
 
 gazetteer = []
 
@@ -18,7 +18,7 @@ print(gazetteer[0:10])
 
 theses = []
 fullRow = []
-with open('adrl_title_desc.csv') as csvfile:
+with open('adrl.csv') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         #the full row for each entry, which will be used to recreate the improved CSV file in a moment
