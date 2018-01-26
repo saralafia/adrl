@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+  <tool name="extent" displayname="Create Extent Shapefile" toolboxalias="">
+    <summary>
+      <para>Creates a rectangular bounding box around the extent of a shapefile.</para>
+    </summary>
+    <arcToolboxHelpPath>C:\Program Files\ArcGIS\help\gp</arcToolboxHelpPath>
+    <parameters>
+      <param name="input_shapefile" displayname="input shapefile" type="Required" direction="Input" expression="&lt;input_shapefile&gt;">
+        <commandReference/>
+        <dialogReference>
+          <para>The input shape from which to determine the extent.</para>
+        </dialogReference>
+      </param>
+      <param name="extent_type" displayname="extent type" type="Required" direction="Input" expression="&lt;rectangular from bounding box&gt;">
+        <commandReference/>
+        <dialogReference>
+          <para>The way to determine the extent.</para>
+        </dialogReference>
+      </param>
+      <param name="ouput_extent_shapefile" displayname="ouput extent shapefile" type="Required" direction="Output" expression="&lt;ouput_extent_shapefile&gt;">
+        <commandReference/>
+        <dialogReference>
+          <para>The ouput shapefile.</para>
+        </dialogReference>
+      </param>
+    </parameters>
+    <commandExample/>
+  </tool>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Create Extent Shapefile</resTitle>
+      <citRespParty>
+        <rpIndName>Martin Lacayo</rpIndName>
+        <rpOrgName>Department of Geography, San Diego State University</rpOrgName>
+        <rpPosName>M.S. Candidate</rpPosName>
+        <role>
+          <RoleCd>010</RoleCd>
+        </role>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint/>
+            <city/>
+            <adminArea/>
+            <postCode/>
+            <country/>
+            <eMailAdd>somanalyst@gmail.com</eMailAdd>
+          </cntAddress>
+          <cntPhone>
+            <voiceNum/>
+            <faxNum/>
+          </cntPhone>
+        </rpCntInfo>
+      </citRespParty>
+    </idCitation>
+    <idAbs>Creates a shapefile extent.</idAbs>
+  </dataIdInfo>
+  <distInfo>
+    <distributor>
+      <distorFormat>
+        <formatName>ArcToolbox Tool</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+</metadata>
