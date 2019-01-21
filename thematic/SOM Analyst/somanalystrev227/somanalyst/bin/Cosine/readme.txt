@@ -1,1 +1,0 @@
-The cosine distance measure in this version of SOM_PAK was implemented by Fareed Qaddoura.

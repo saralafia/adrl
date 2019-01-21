@@ -1,0 +1,144 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso8859_1" />
+    
+    <title>Best Matching Unit to Shapefile</title>
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="top" title="SOM Analyst v1 documentation" href="../../index.html" />
+    <link rel="up" title="SOM Visualization" href="tbSOMvisualization.html" />
+    <link rel="next" title="Group Shapes" href="uiGroup.html" />
+    <link rel="prev" title="SOM to Shapefile" href="uiCODtoSHP.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="uiGroup.html" title="Group Shapes"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="uiCODtoSHP.html" title="SOM to Shapefile"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">SOM Analyst v1 documentation</a> &raquo;</li>
+          <li><a href="../arcgis.html" >SOM Analyst</a> &raquo;</li>
+          <li><a href="tbSOMvisualization.html" accesskey="U">SOM Visualization</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="best-matching-unit-to-shapefile">
+<h1>Best Matching Unit to Shapefile</h1>
+<p>Creates a shapefile from projected data.</p>
+<div class="section" id="arcgis-reference">
+<h2>ArcGIS Reference</h2>
+<div class="figure">
+<img alt="../../_images/bmushape.png" src="../../_images/bmushape.png" />
+</div>
+<p><strong>Parameters</strong></p>
+<dl class="docutils">
+<dt>projected data</dt>
+<dd>The input projected data file.</dd>
+<dt>shape type</dt>
+<dd>The type of shapes to use to represent the data.</dd>
+<dt>projected data shapefile</dt>
+<dd>The output shapefile to contain the projected data shapes.</dd>
+<dt>label from SOM data</dt>
+<dd>The unprojected SOM data file that contains the values and labels to use for the projected data.</dd>
+<dt>Cartesian quadrant</dt>
+<dd>The Cartesian quadrant in which to place the shapes.</dd>
+<dt>spacing between center points</dt>
+<dd>The spacing between the units in the SOM on which the projected data will be displayed.</dd>
+<dt>placement</dt>
+<dd>The placement location on each SOM unit to use for the projected data shapes.</dd>
+<dt>maximum placement distance</dt>
+<dd>The maximum distance from the center of the SOM units to place the projected data shapes.</dd>
+</dl>
+</div>
+<div class="section" id="module-uiBMUtoSHP">
+<span id="code-reference"></span><h2>Code Reference</h2>
+<dl class="function">
+<dt id="uiBMUtoSHP.BMUtoSHP">
+<tt class="descclassname">uiBMUtoSHP.</tt><tt class="descname">BMUtoSHP</tt><big>(</big><em>bmufile</em>, <em>outfile</em>, <em>labels</em>, <em>quadrant</em>, <em>spacing</em>, <em>placement</em>, <em>distance</em><big>)</big></dt>
+<dd><p>Creates a shapefile from a BMU file.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Arguments :</th><td class="field-body"><dl class="first last docutils">
+<dt>bmufile</dt>
+<dd><p class="first last">The input BMU filename.</p>
+</dd>
+<dt>outfile</dt>
+<dd><p class="first last">The ouput shapefile name.</p>
+</dd>
+<dt>labels <em>optional</em></dt>
+<dd><p class="first last">A data file that contains the labels for the column values.</p>
+</dd>
+<dt>quadrant <em>optional</em></dt>
+<dd><p class="first last">The Cartesian quadrant to use.</p>
+</dd>
+<dt>spacing <em>optional</em></dt>
+<dd><p class="first last">The spacing between units in the SOM.</p>
+</dd>
+<dt>placement <em>optional</em></dt>
+<dd><p class="first last">The method for placement within a neuron.</p>
+</dd>
+<dt>distance <em>optional</em></dt>
+<dd><p class="first last">The maximum distance for the placement.</p>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="uiGroup.html" title="Group Shapes"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="uiCODtoSHP.html" title="SOM to Shapefile"
+             >previous</a> |</li>
+        <li><a href="../../index.html">SOM Analyst v1 documentation</a> &raquo;</li>
+          <li><a href="../arcgis.html" >SOM Analyst</a> &raquo;</li>
+          <li><a href="tbSOMvisualization.html" >SOM Visualization</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2010, Martin Lacayo.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.7.
+    </div>
+  </body>
+</html>
