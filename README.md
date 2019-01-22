@@ -1,10 +1,10 @@
 # Enabling the Discovery of Related Research with Spatialized Library Interfaces
 
-**Goal**: To produce spatialized interfaces that enable users to explore the thematic similarity of research resources by linking existing spatialization techniques to core concepts of spatial information
+**Goal**: To produce spatialized interfaces that enable users to explore the thematic similarity of research resources by linking existing spatialization techniques to [core concepts of spatial information](<http://spatial.ucsb.edu/core-concepts-of-spatial-information/>)
 
 **Motivation**: To facilitate the discovery of related research resources in the multidisciplinary context of a university library 
 
-**Implementation**: We develop two spatialized views of research resources available through the [Alexandria Digital Research Library](<https://alexandria.ucsb.edu/collections/f3348hkz>). The steps we take to do this are detailed as follows.
+**Implementation**: We develop two spatialized views of a collection of masters and doctoral theses available through the [Alexandria Digital Research Library](<https://alexandria.ucsb.edu/collections/f3348hkz>)
 
 ## Preprocessing
 ### Harvesting metadata
@@ -30,7 +30,7 @@ Save topic list (**"adrl\_topiclist.csv"**) and output (**"adrl\_thesis\_topics.
 
 ## Self-Organizing Map
 ### SOM Analyst
-Run [**SOM Analyst**](<code.google.com/p/somanalyst>) with the following parameters:
+Run [**SOM Analyst**](<http://code.google.com/p/somanalyst>) with the following parameters:
 
 * x / y dimensions: 42x42 (i.e., 1764 hexagons)
 * length of training: 50,000 / 500,000
