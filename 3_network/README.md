@@ -39,7 +39,7 @@ But of course, using another distribution (e.g. Enthought Canopy) or ``pip`` is 
 
 If you have git installed, you can get the tutorial materials by cloning this repo:
 
-    git clone https://github.com/geopandas/scipy2018-geospatial-data
+    git clone https://github.com/saralafia/adrl.git
 
 Otherwise, you can download the repository as a .zip file by heading over
 to the GitHub repository (https://github.com/geopandas/scipy2018-geospatial-data) in
