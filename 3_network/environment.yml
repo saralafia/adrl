@@ -1,0 +1,11 @@
+name: 3_network
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pandas
+  - matplotlib
+  - plotly
+  - numpy
+  - networkx
+  - pip
