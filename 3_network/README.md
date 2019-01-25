@@ -47,7 +47,6 @@ your browser and click the green "Download" button in the upper right:
 
 ![](desktop/download_github.png)
 
-
 ## Test the tutorial environment
 
 To make sure everything was installed correctly, open a terminal, and change its directory (`cd`) so that your working directory is the tutorial materials you downloaded in the step above. Then enter the following:
