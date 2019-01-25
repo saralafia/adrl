@@ -42,7 +42,7 @@ If you have git installed, you can get the tutorial materials by cloning this re
     git clone https://github.com/saralafia/adrl.git
 
 Otherwise, you can download the repository as a .zip file by heading over
-to the GitHub repository (https://github.com/geopandas/scipy2018-geospatial-data) in
+to the GitHub repository (https://github.com/saralafia/adrl.git) in
 your browser and click the green "Download" button in the upper right:
 
 ![](desktop/download_github.png)
