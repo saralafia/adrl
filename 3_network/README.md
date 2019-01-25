@@ -3,7 +3,7 @@
 ### Instructors
 
 - [Sara Lafia](http://www.geog.ucsb.edu/~lafia/) - [Center for Spatial Studies, University of California, Santa Barbara]
-- [Christina Last](https://www.linkedin.com/in/christina-last/) - [University of Bristol]
+- [Christina Last](https://www.linkedin.com/in/christina-last/) - [Department of Geographical Sciences, University of Bristol]
 
 This tutorial is an introduction to network analysis in Python, with a focus on producing networks from tabular data. It first focuses on introducing the basics of networkx, a well-developed network analysis library in Python. This includes importing visualizing, combining and tidying data for analysis, and uses libraries such as `pandas`, `numpy`, `matplotlib` or `plotly`. The second part will build upon this and focus on more more on spatializing research resources available through a public library repository (https://alexandria.ucsb.edu/collections/f3348hkz). No previous experience with networkx or the other python libraries is needed, but basic familiarity with network data structures and concepts (nodes vs edges) and pandas will be helpful.
 
