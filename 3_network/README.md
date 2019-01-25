@@ -45,7 +45,7 @@ Otherwise, you can download the repository as a .zip file by heading over
 to the GitHub repository (https://github.com/saralafia/adrl.git) in
 your browser and click the green "Download" button in the upper right:
 
-![](https://drive.google.com/open?id=1kjHYWVVEVTZegJa_sKOifMJiVup8kxzl)
+![](https://drive.google.com/file/d/1kjHYWVVEVTZegJa_sKOifMJiVup8kxzl/view?usp=sharing)
 
 ## Test the tutorial environment
 
