@@ -1,5 +1,5 @@
 ## Self-Organizing Map
-###Author
+### Author
 - [Sara Lafia](http://www.geog.ucsb.edu/~lafia/) - [Center for Spatial Studies, University of California, Santa Barbara]
 
 ### SOM Analyst
