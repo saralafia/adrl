@@ -16,6 +16,8 @@ These two demos illustrate an interactive visualisation that enables user to nav
 - Selecting a node will highlight the node and its label
 - Selecting or hovering over a node will list the "Department of Selected Node" and a "List of the titles of all nodes connected to selected node".
 
+### GIF of Full Network
+
 ![](https://github.com/saralafia/adrl/blob/master/3_network/Interactive_Visualisation/screen_record_compress.gif)
 
 ## Installation notes
